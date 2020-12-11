@@ -1,0 +1,57 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Broadcaster	lib/cable_ready/broadcaster.rb	/^  module Broadcaster$/;"	m	class:CableReady
+CableReady	lib/cable_ready.rb	/^module CableReady$/;"	m
+CableReady	lib/cable_ready/broadcaster.rb	/^module CableReady$/;"	m
+CableReady	lib/cable_ready/channel.rb	/^module CableReady$/;"	m
+CableReady	lib/cable_ready/channels.rb	/^module CableReady$/;"	m
+CableReady	lib/cable_ready/version.rb	/^module CableReady$/;"	m
+Channel	lib/cable_ready/channel.rb	/^  class Channel$/;"	c	class:CableReady
+Channels	lib/cable_ready/channels.rb	/^  class Channels$/;"	c	class:CableReady
+Engine	lib/cable_ready.rb	/^  class Engine < Rails::Engine$/;"	c	class:CableReady
+[]	lib/cable_ready/channels.rb	/^    def [](identifier)$/;"	f	class:CableReady.Channels
+add_operation	lib/cable_ready/channels.rb	/^    def add_operation(operation, &implementation)$/;"	f	class:CableReady.Channels
+broadcast	lib/cable_ready/channel.rb	/^    def broadcast(clear = true)$/;"	f	class:CableReady.Channel
+broadcast	lib/cable_ready/channels.rb	/^    def broadcast(*identifiers, clear: true)$/;"	f	class:CableReady.Channels
+broadcast_to	lib/cable_ready/channel.rb	/^    def broadcast_to(model, clear = true)$/;"	f	class:CableReady.Channel
+broadcast_to	lib/cable_ready/channels.rb	/^    def broadcast_to(model, *identifiers, clear: true)$/;"	f	class:CableReady.Channels
+cable_ready	lib/cable_ready/broadcaster.rb	/^    def cable_ready$/;"	f	class:CableReady.Broadcaster
+channel_broadcast	lib/cable_ready/channel.rb	/^    def channel_broadcast(clear)$/;"	f	class:CableReady.Channel
+channel_broadcast_to	lib/cable_ready/channel.rb	/^    def channel_broadcast_to(model, clear)$/;"	f	class:CableReady.Channel
+configure	lib/cable_ready/channels.rb	/^    def self.configure$/;"	F	class:CableReady.Channels
+const.bubbles	javascript/cable_ready.js	/^  const init = { bubbles: true, cancelable: true, detail: detail }$/;"	p
+const.cancelable	javascript/cable_ready.js	/^  const init = { bubbles: true, cancelable: true, detail: detail }$/;"	p
+const.color	javascript/cable_ready.js	/^  color: true,$/;"	p
+const.date	javascript/cable_ready.js	/^  date: true,$/;"	p
+const.datetime	javascript/cable_ready.js	/^  datetime: true,$/;"	p
+const.datetime-local	javascript/cable_ready.js	/^  'datetime-local': true,$/;"	p
+const.detail	javascript/cable_ready.js	/^  const init = { bubbles: true, cancelable: true, detail: detail }$/;"	p
+const.email	javascript/cable_ready.js	/^  email: true,$/;"	p
+const.month	javascript/cable_ready.js	/^  month: true,$/;"	p
+const.number	javascript/cable_ready.js	/^  number: true,$/;"	p
+const.password	javascript/cable_ready.js	/^  password: true,$/;"	p
+const.pushState	javascript/cable_ready.js	/^  pushState: config => {$/;"	p
+const.range	javascript/cable_ready.js	/^  range: true,$/;"	p
+const.search	javascript/cable_ready.js	/^  search: true,$/;"	p
+const.select-multiple	javascript/cable_ready.js	/^  'select-multiple': true,$/;"	p
+const.select-one	javascript/cable_ready.js	/^  'select-one': true,$/;"	p
+const.tel	javascript/cable_ready.js	/^  tel: true,$/;"	p
+const.text	javascript/cable_ready.js	/^  text: true,$/;"	p
+const.textarea	javascript/cable_ready.js	/^  textarea: true,$/;"	p
+const.time	javascript/cable_ready.js	/^  time: true,$/;"	p
+const.url	javascript/cable_ready.js	/^  url: true,$/;"	p
+const.value	javascript/cable_ready.js	/^    const ignore = { value: true }$/;"	p
+const.week	javascript/cable_ready.js	/^  week: true$/;"	p
+dom_id	lib/cable_ready/broadcaster.rb	/^    def dom_id(record, prefix = nil)$/;"	f	class:CableReady.Broadcaster
+enqueue_operation	lib/cable_ready/channel.rb	/^    def enqueue_operation(key, options)$/;"	f	class:CableReady.Channel
+import.INPUT	javascript/cable_ready.js	/^  INPUT: true,$/;"	p
+import.SELECT	javascript/cable_ready.js	/^  SELECT: true$/;"	p
+import.TEXTAREA	javascript/cable_ready.js	/^  TEXTAREA: true,$/;"	p
+initialize	lib/cable_ready/channel.rb	/^    def initialize(identifier, available_operations)$/;"	f	class:CableReady.Channel
+initialize	lib/cable_ready/channels.rb	/^    def initialize$/;"	f	class:CableReady.Channels
+mutex	lib/cable_ready/channels.rb	/^    def mutex$/;"	f	class:CableReady.Channels
+reset	lib/cable_ready/channel.rb	/^    def reset$/;"	f	class:CableReady.Channel
