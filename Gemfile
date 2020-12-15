@@ -28,7 +28,7 @@ gem 'turbolinks', '~> 5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
-gem  'devise'
+gem 'devise'
 
 gem 'friendly_id', '~> 5.4.0'
 
