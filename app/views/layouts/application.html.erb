@@ -5,12 +5,14 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-
+    <script src="https://kit.fontawesome.com/b6836c1b5a.js" crossorigin="anonymous"></script>
+    
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body class="bg-light">
+    <%= render partial: 'shared/navigation_bar' %>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
     <%= yield %>
