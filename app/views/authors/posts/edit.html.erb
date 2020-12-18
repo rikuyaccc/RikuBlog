@@ -1,6 +1,7 @@
 <div class="row">
   <div class="col-md-4">
     <%= link_to 'Back', posts_path , class: 'btn btn-dark mb-3' %>
+    <%= link_to 'delete', post_path, class: 'btn btn-danger mb-3', method: :delete, data: { confirm: 'Are you sure? Your post will be deleted.' } %>
     <div class="card">
       <div class="card-header">
         <h6 class="card-title mb-0">Editing Post</h6>
